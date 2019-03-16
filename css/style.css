@@ -90,6 +90,9 @@ small {
   font-size: 1.3rem;
   margin-top: 2.5rem;
 }
+.phone-block {
+  margin-left: 10rem;
+}
 .mobile {
   display: -webkit-box;
   display: -ms-flexbox;
