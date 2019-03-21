@@ -33,8 +33,18 @@
     .reg();
   }
 
+  button,input,a {
+    &:focus{
+      outline: none;
+    }
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
   .main {
     background: #fff url(../img/fonHeader.png) center center no-repeat;
+    background-size: cover;
     &-content {
       margin-top: 10rem;
       h1 {
@@ -88,6 +98,7 @@
     border: 1px solid @border-input;
     padding: 2rem;
 }
+
  label {
    position: absolute;
    left: 50%;
@@ -103,11 +114,13 @@
     height: 5.5rem;
   }
 
+
  small {
    display: block;
    margin-top: 1.5rem;
    font-size: 1.3rem;
  }
+
 
  .button {
    padding: 1rem 2rem;
@@ -132,6 +145,26 @@
    .bold();
    color: @text;
  }
+
+ @media (max-width: 770px) {
+   .logo {
+     text-align: center;
+   }
+   .mobile {
+     text-align: center;
+     margin-right: 13rem;
+   }
+   .main-content{
+     margin-top: 3rem;
+   }
+ }
+
+@media (max-width: 991px) {
+  .main-title {
+    text-align: center;
+  }
+}
+
 
 
 
