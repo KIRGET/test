@@ -9,8 +9,17 @@ html {
 body {
   font-family: 'ProximaNova_Reg', sans-serif;
 }
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
 .main {
   background: #ffffff url(../img/fonHeader.png) center center no-repeat;
+  background-size: cover;
 }
 .main-content {
   margin-top: 10rem;
@@ -104,6 +113,23 @@ small {
   margin: 4rem 0;
   font-family: 'ProximaNova_Bold', sans-serif;
   color: #1a1820;
+}
+@media (max-width: 770px) {
+  .logo {
+    text-align: center;
+  }
+  .mobile {
+    text-align: center;
+    margin-right: 13rem;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 991px) {
+  .main-title {
+    text-align: center;
+  }
 }
 /* Typography */
 section {
