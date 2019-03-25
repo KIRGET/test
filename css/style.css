@@ -114,6 +114,65 @@ small {
   font-family: 'ProximaNova_Bold', sans-serif;
   color: #1a1820;
 }
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+.features-img {
+  margin: 6rem;
+}
+.features-img img {
+  display: block;
+  margin: 3rem auto;
+}
+.slick-active {
+  outline: none;
+}
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  background-color: #ffffff;
+  -webkit-transition: translateX(-50%);
+  transition: translateX(-50%);
+  padding: 4rem 6rem;
+}
+.popup-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-close {
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: white;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-header {
+  font-family: 'ProximaNova_Bold', sans-serif;
+}
 @media (max-width: 770px) {
   .logo {
     text-align: center;
@@ -134,4 +193,10 @@ small {
 /* Typography */
 section {
   padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0 8rem;
+  font-size: 3.6rem;
+  font-family: 'ProximaNova_Bold', sans-serif;
+  text-align: center;
 }
